@@ -1,0 +1,237 @@
+.audiences {
+  background: var(--paper);
+}
+
+.head {
+  display: grid;
+  gap: 20px;
+  max-width: 860px;
+  margin-bottom: clamp(48px, 6vw, 72px);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.6fr);
+  gap: 24px;
+  align-items: stretch;
+}
+
+.tabs {
+  display: grid;
+  align-content: start;
+  border-top: 1px solid var(--line);
+}
+
+.blue {
+  --tone: var(--blue);
+  --tone-bg: #1f7a6d;
+}
+
+.green {
+  --tone: var(--sage);
+  --tone-bg: #4f7b60;
+}
+
+.gold {
+  --tone: #a9822a;
+  --tone-bg: #85661c;
+}
+
+.coral {
+  --tone: var(--rose);
+  --tone-bg: #b9475f;
+}
+
+.tab {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  width: 100%;
+  padding: 26px 8px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  color: var(--text-muted);
+  transition: color 0.3s ease, padding 0.5s var(--ease-out);
+}
+
+.tab::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 2px;
+  width: 100%;
+  background: var(--tone);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.6s var(--ease-out);
+}
+
+.tab:hover {
+  color: var(--navy);
+}
+
+.tab[aria-selected="true"] {
+  color: var(--navy);
+  padding-left: 16px;
+}
+
+.tab[aria-selected="true"]::after {
+  transform: scaleX(1);
+}
+
+.tabIndex {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--tone);
+}
+
+.tabLabel {
+  font-family: var(--font-display);
+  font-size: clamp(24px, 2.4vw, 34px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.tab[aria-selected="true"] .tabLabel {
+  font-style: italic;
+}
+
+.tabArrow {
+  margin-left: auto;
+  width: 18px;
+  height: 18px;
+  color: var(--tone);
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: opacity 0.3s ease, transform 0.5s var(--ease-out);
+}
+
+.tab[aria-selected="true"] .tabArrow {
+  opacity: 1;
+  transform: none;
+}
+
+.panel {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(28px, 4vw, 56px);
+  padding: clamp(32px, 4.4vw, 64px);
+  min-height: 460px;
+  border-radius: var(--radius-lg);
+  background: var(--tone-bg);
+  color: var(--white);
+  overflow: hidden;
+  isolation: isolate;
+  transition: background-color 0.6s var(--ease-out);
+}
+
+.shape {
+  position: absolute;
+  z-index: -1;
+  right: -120px;
+  top: -120px;
+  width: 380px;
+  height: 380px;
+  border-radius: 0 0 0 100%;
+  background: rgba(255, 255, 255, 0.08);
+  transition: transform 0.9s var(--ease-out);
+}
+
+.panelMain {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.panelTitle {
+  color: var(--white);
+  font-size: clamp(34px, 3.6vw, 52px);
+  letter-spacing: -0.025em;
+}
+
+.panelBody {
+  font-size: 17px;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.94);
+}
+
+.focus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.focus ul {
+  display: grid;
+  gap: 2px;
+}
+
+.focus li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.focus li svg {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  padding: 4px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.16);
+  stroke-width: 2.4;
+}
+
+@media (max-width: 1000px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .tabs {
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(max-content, 1fr);
+    overflow-x: auto;
+    border-top: 0;
+    scrollbar-width: none;
+    margin-inline: calc(var(--gutter) * -1);
+    padding-inline: var(--gutter);
+  }
+
+  .tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tab {
+    padding: 14px 18px;
+    white-space: nowrap;
+    gap: 10px;
+  }
+
+  .tab[aria-selected="true"] {
+    padding-left: 18px;
+  }
+
+  .tabArrow {
+    display: none;
+  }
+
+  .tabLabel {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 700px) {
+  .panel {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+}

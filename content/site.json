@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "siteName": "Everfield Advisors",
+    "title": "Everfield Advisors | Flat-fee financial planning, investing and tax strategy",
+    "description": "One dedicated advisory team and one flat monthly membership for your financial plan, investments, taxes and estate. No commissions, no pressure, and no need to move your money.",
+    "url": "https://everfield.example",
+    "locale": "en_US"
+  },
+  "logo": {
+    "alt": "Everfield Advisors"
+  },
+  "skipLink": "Skip to content",
+  "header": {
+    "menuOpenLabel": "Open menu",
+    "menuCloseLabel": "Close menu",
+    "nav": [
+      {
+        "label": "Services",
+        "children": [
+          {
+            "label": "Financial Planning",
+            "description": "A full plan built around your values",
+            "href": "#services"
+          },
+          {
+            "label": "Investing",
+            "description": "Portfolios fitted to your cash flow",
+            "href": "#investing"
+          },
+          {
+            "label": "Retirement Income",
+            "description": "A paycheck that lasts as long as you do",
+            "href": "#services"
+          },
+          {
+            "label": "Taxes",
+            "description": "Year-round planning with CPA partners",
+            "href": "#services"
+          },
+          {
+            "label": "Business Planning",
+            "description": "Valuation, exit and owner strategy",
+            "href": "#services"
+          }
+        ]
+      },
+      {
+        "label": "Who we help",
+        "children": [
+          {
+            "label": "Accumulators",
+            "description": "Building wealth while life is busy",
+            "href": "#audiences"
+          },
+          {
+            "label": "Business Owners",
+            "description": "When your business is your biggest asset",
+            "href": "#audiences"
+          },
+          {
+            "label": "Nearing Retirement",
+            "description": "The decade that decides the rest",
+            "href": "#audiences"
+          },
+          {
+            "label": "Retired",
+            "description": "Spend with confidence, not guesswork",
+            "href": "#audiences"
+          }
+        ]
+      },
+      {
+        "label": "Membership",
+        "href": "#membership"
+      },
+      {
+        "label": "Resources",
+        "href": "#"
+      },
+      {
+        "label": "About",
+        "children": [
+          {
+            "label": "Our Team",
+            "description": "Meet the people behind your plan",
+            "href": "#"
+          },
+          {
+            "label": "Our Story",
+            "description": "Why we started Everfield",
+            "href": "#"
+          },
+          {
+            "label": "For Advisors",
+            "description": "Join the Everfield team",
+            "href": "#"
+          }
+        ]
+      }
+    ],
+    "signIn": {
+      "label": "Client sign in",
+      "href": "#"
+    },
+    "cta": {
+      "label": "Book a call",
+      "href": "#start"
+    }
+  },
+  "footer": {
+    "tagline": "Plan with intent. Live in full.",
+    "summary": "Flat-fee financial planning, investment management and tax strategy for families and business owners.",
+    "cta": {
+      "label": "Book a 30-minute call",
+      "href": "#start"
+    },
+    "columns": [
+      {
+        "title": "Services",
+        "links": [
+          {
+            "label": "Financial Planning",
+            "href": "#services"
+          },
+          {
+            "label": "Investing",
+            "href": "#investing"
+          },
+          {
+            "label": "Retirement Income",
+            "href": "#services"
+          },
+          {
+            "label": "Taxes",
+            "href": "#services"
+          },
+          {
+            "label": "Business Planning",
+            "href": "#services"
+          },
+          {
+            "label": "Membership",
+            "href": "#membership"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "label": "Our Team",
+            "href": "#"
+          },
+          {
+            "label": "Our Story",
+            "href": "#"
+          },
+          {
+            "label": "Resources",
+            "href": "#"
+          },
+          {
+            "label": "For Advisors",
+            "href": "#"
+          },
+          {
+            "label": "Contact Us",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "Support",
+        "links": [
+          {
+            "label": "Client sign in",
+            "href": "#"
+          },
+          {
+            "label": "Legal",
+            "href": "#"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "#"
+          },
+          {
+            "label": "Terms of Use",
+            "href": "#"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "Facebook",
+        "icon": "facebook",
+        "href": "#"
+      },
+      {
+        "label": "X (Twitter)",
+        "icon": "x",
+        "href": "#"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "linkedin",
+        "href": "#"
+      },
+      {
+        "label": "YouTube",
+        "icon": "youtube",
+        "href": "#"
+      },
+      {
+        "label": "Instagram",
+        "icon": "instagram",
+        "href": "#"
+      }
+    ],
+    "copyright": "Everfield Advisors LLC. All rights reserved.",
+    "credit": {
+      "prefix": "Designed by",
+      "label": "CoreConcepts Design",
+      "href": "https://coreconcepts.design/"
+    }
+  }
+}

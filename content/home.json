@@ -1,0 +1,581 @@
+{
+  "hero": {
+    "eyebrow": "Flat-fee financial planning",
+    "titleLines": [
+      "Plan with intent.",
+      "Live in full."
+    ],
+    "lead": "One dedicated advisory team and one simple monthly membership for your plan, your investments, your taxes and your estate. Built around the life you want, reviewed with you every quarter.",
+    "primaryCta": {
+      "label": "Book a 30-minute call",
+      "href": "#start"
+    },
+    "secondaryCta": {
+      "label": "See what's included",
+      "href": "#membership"
+    },
+    "assurances": [
+      "No commissions",
+      "No need to move your money",
+      "No sales pressure"
+    ],
+    "plan": {
+      "label": "One plan, every decision connected",
+      "status": "Reviewed every quarter",
+      "hint": "Select a milestone to see what it touches",
+      "areas": [
+        {
+          "id": "plan",
+          "label": "Financial plan"
+        },
+        {
+          "id": "invest",
+          "label": "Investments"
+        },
+        {
+          "id": "tax",
+          "label": "Taxes"
+        },
+        {
+          "id": "protect",
+          "label": "Insurance"
+        },
+        {
+          "id": "business",
+          "label": "Business"
+        },
+        {
+          "id": "estate",
+          "label": "Estate"
+        }
+      ],
+      "milestones": [
+        {
+          "title": "Cash flow and savings",
+          "areas": [
+            "plan",
+            "tax"
+          ]
+        },
+        {
+          "title": "A first home",
+          "areas": [
+            "plan",
+            "protect",
+            "tax"
+          ]
+        },
+        {
+          "title": "Children's education",
+          "areas": [
+            "plan",
+            "invest"
+          ]
+        },
+        {
+          "title": "Selling the business",
+          "areas": [
+            "business",
+            "tax",
+            "estate"
+          ]
+        },
+        {
+          "title": "Retirement",
+          "areas": [
+            "invest",
+            "tax",
+            "plan"
+          ]
+        },
+        {
+          "title": "Legacy",
+          "areas": [
+            "estate",
+            "tax"
+          ]
+        }
+      ],
+      "note": "Illustrative example. Every plan is built around your own goals.",
+      "proof": {
+        "value": "1,200+",
+        "label": "families rely on Everfield to keep their plan current"
+      }
+    }
+  },
+  "marquee": {
+    "label": "Everything in one membership",
+    "items": [
+      "Financial planning",
+      "Investment management",
+      "Retirement income",
+      "Proactive tax planning",
+      "Estate planning",
+      "Business valuation",
+      "Insurance review",
+      "Education planning",
+      "Major purchases"
+    ]
+  },
+  "problem": {
+    "eyebrow": "Why a plan matters",
+    "title": "Most people have accounts. Very few have a plan.",
+    "lead": "Advertisers, algorithms and well-meaning friends all have opinions on how you should spend your money. Without a plan of your own, it is easy to end up living someone else's idea of the good life.",
+    "items": [
+      {
+        "number": "01",
+        "title": "You're on financial autopilot.",
+        "body": "Paychecks come in, bills go out, and the years move fast. You have never sat down and pictured what your best life actually looks like.",
+        "question": "Have you defined what “enough” means for you?",
+        "tone": "blue"
+      },
+      {
+        "number": "02",
+        "title": "Your spending doesn't match your priorities.",
+        "body": "Money drifts toward what's urgent instead of what matters. The things you value most keep getting pushed to next year.",
+        "question": "Does your money reflect your values?",
+        "tone": "green"
+      },
+      {
+        "number": "03",
+        "title": "You worry about getting a big decision wrong.",
+        "body": "A home, a business sale, a retirement date. Big choices touch taxes, investments and your estate all at once, and the window to get them right is short.",
+        "question": "Will today's choices still work in ten years?",
+        "tone": "coral"
+      }
+    ],
+    "resolution": {
+      "title": "Clarity, confidence and control.",
+      "body": "That's the Everfield difference. We start with your values and vision, then coordinate every part of your financial life around them."
+    }
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Everything your money touches, coordinated in one plan.",
+    "lead": "Most families juggle a planner, an investment manager, a tax preparer and an estate attorney who never talk to each other. With Everfield, one team sees the whole picture.",
+    "items": [
+      {
+        "title": "Financial planning",
+        "body": "A comprehensive plan that connects your cash flow, goals, investments and protection, updated as your life changes.",
+        "href": "#services"
+      },
+      {
+        "title": "Proactive tax planning",
+        "body": "Dedicated tax meetings with your advisor and our CPA partners, plus a complimentary review of your last 3 years of returns.",
+        "href": "#services"
+      },
+      {
+        "title": "Investment management",
+        "body": "Portfolios personalized to your plan and cash flow needs. No generic risk buckets.",
+        "href": "#investing"
+      },
+      {
+        "title": "Retirement income",
+        "body": "A sustainable income plan that balances what you need today with growth for the decades ahead.",
+        "href": "#services"
+      },
+      {
+        "title": "Business planning and valuation",
+        "body": "An annual professional valuation of your company, so you can plan growth, succession or a sale with real numbers.",
+        "href": "#services"
+      },
+      {
+        "title": "Estate planning",
+        "body": "Your first estate plan or an update to the one you have. A will and estate plan are included in the membership.",
+        "href": "#membership"
+      },
+      {
+        "title": "Insurance review",
+        "body": "A thorough look at your existing policies and real needs, with clear recommendations to protect your family.",
+        "href": "#membership"
+      },
+      {
+        "title": "Education and major purchases",
+        "body": "Fund a dream home, a sabbatical or your children's education without putting your long-term goals at risk.",
+        "href": "#services"
+      }
+    ],
+    "ctaText": "One team, one plan and one flat fee for all of it.",
+    "cta": {
+      "label": "Explore all services",
+      "href": "#services"
+    }
+  },
+  "audiences": {
+    "eyebrow": "Who we help",
+    "title": "Wherever you are in life, the plan meets you there.",
+    "lead": "Pick the stage that sounds most like you.",
+    "items": [
+      {
+        "id": "accumulators",
+        "label": "Building wealth",
+        "title": "For accumulators",
+        "body": "You're earning well and life is full. We help you turn a strong income into lasting wealth, without giving up the things that make life good today.",
+        "focus": [
+          "Cash flow and savings strategy",
+          "Tax-efficient investing",
+          "Home, family and education goals",
+          "Protection for the people who depend on you"
+        ],
+        "cta": {
+          "label": "Planning for accumulators",
+          "href": "#audiences"
+        },
+        "tone": "blue"
+      },
+      {
+        "id": "business-owners",
+        "label": "Running a business",
+        "title": "For business owners",
+        "body": "Your business is likely your largest asset and your biggest source of risk. We plan your personal and business finances together, so neither works against the other.",
+        "focus": [
+          "Annual professional business valuation",
+          "Business, real estate and personal tax review",
+          "Succession and exit planning",
+          "Owner compensation and retirement plans"
+        ],
+        "cta": {
+          "label": "Planning for business owners",
+          "href": "#audiences"
+        },
+        "tone": "green"
+      },
+      {
+        "id": "nearing-retirement",
+        "label": "Nearing retirement",
+        "title": "For those nearing retirement",
+        "body": "The decisions you make in the years before retirement shape everything after it. We help you set the date, test the numbers and avoid costly timing mistakes.",
+        "focus": [
+          "Retirement readiness and timing",
+          "Social Security and Medicare strategy",
+          "Tax planning before income changes",
+          "Turning savings into a reliable paycheck"
+        ],
+        "cta": {
+          "label": "Planning for pre-retirees",
+          "href": "#audiences"
+        },
+        "tone": "gold"
+      },
+      {
+        "id": "retired",
+        "label": "Already retired",
+        "title": "For retirees",
+        "body": "You've done the saving. Now the goal is to enjoy it, with an income plan that adapts to markets, health and the legacy you want to leave.",
+        "focus": [
+          "Sustainable retirement income",
+          "Withdrawal order and tax efficiency",
+          "Estate and legacy planning",
+          "Charitable giving strategy"
+        ],
+        "cta": {
+          "label": "Planning for retirees",
+          "href": "#audiences"
+        },
+        "tone": "coral"
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How it works",
+    "title": "Three steps to start. Four check-ins a year to stay on course.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Book a meeting",
+        "body": "Pick a time that suits you with our online scheduler."
+      },
+      {
+        "number": "2",
+        "title": "Meet your advisor",
+        "body": "Get to know the advisor who will be with you every step of the way, and tell us what matters to you."
+      },
+      {
+        "number": "3",
+        "title": "Build your plan",
+        "body": "Together we build a tailored roadmap for your money and your life, then put it to work."
+      }
+    ],
+    "cycle": {
+      "title": "Then we chart your path, one quarter at a time.",
+      "body": "Life doesn't stand still, so neither does your plan. Every quarter we review, update and refine one area in depth, and adapt when life throws you a curveball.",
+      "quarters": [
+        {
+          "label": "Q1",
+          "topics": [
+            "Goal setting",
+            "Financial plan"
+          ]
+        },
+        {
+          "label": "Q2",
+          "topics": [
+            "Tax strategy",
+            "Insurance"
+          ]
+        },
+        {
+          "label": "Q3",
+          "topics": [
+            "Business plan",
+            "Investments"
+          ]
+        },
+        {
+          "label": "Q4",
+          "topics": [
+            "Charitable giving",
+            "Estate plan"
+          ]
+        }
+      ],
+      "note": "Need us more often? Members can meet with their advisors as often as they need."
+    },
+    "cta": {
+      "label": "Book your first meeting",
+      "href": "#start"
+    }
+  },
+  "membership": {
+    "eyebrow": "The membership",
+    "title": "One flat monthly fee. Everything included.",
+    "lead": "We charge one low monthly fee for the most comprehensive financial planning services we know of. For most clients it works out to much less than the percentage-of-assets fees many advisors charge.",
+    "includedTitle": "What your membership includes",
+    "included": [
+      "A comprehensive financial plan that aligns your values and your money",
+      "Quarterly meetings to keep you on track and your plan current",
+      "A dedicated, family-office-style team of advisors",
+      "Tax planning meetings during the year with your advisor and our CPA partners",
+      "A 3-year audit of your business, real estate and personal returns",
+      "Access to discounted 1040 tax preparation and filing from our CPA partners",
+      "A will and estate plan at no extra cost",
+      "Risk management strategies to protect your wealth and your family"
+    ],
+    "promisesTitle": "What you'll never get from us",
+    "promises": [
+      {
+        "title": "Commissions or kickbacks",
+        "body": "No commissions, hidden fees or kickbacks. Ever."
+      },
+      {
+        "title": "A requirement to move your money",
+        "body": "Keep your investments where they are if you prefer."
+      },
+      {
+        "title": "High-pressure sales",
+        "body": "We're here to serve, not to sell you products."
+      },
+      {
+        "title": "Cookie-cutter portfolios",
+        "body": "No risk or style buckets. Investments fit your plan."
+      }
+    ],
+    "compare": {
+      "title": "How the model compares",
+      "columns": [
+        "",
+        "Everfield",
+        "Many traditional advisors"
+      ],
+      "rows": [
+        {
+          "label": "How you pay for planning",
+          "us": "One flat monthly fee",
+          "them": "A percentage of your assets"
+        },
+        {
+          "label": "Commissions on products",
+          "us": "Never",
+          "them": "Common"
+        },
+        {
+          "label": "Must move your investments",
+          "us": "No",
+          "them": "Usually"
+        },
+        {
+          "label": "Tax planning with CPAs",
+          "us": "Included",
+          "them": "Rarely included"
+        },
+        {
+          "label": "Estate plan",
+          "us": "Included",
+          "them": "Referred out"
+        }
+      ]
+    },
+    "cta": {
+      "label": "See membership details",
+      "href": "#membership"
+    },
+    "secondaryCta": {
+      "label": "Book a 30-minute call",
+      "href": "#start"
+    },
+    "tabs": {
+      "included": "Included",
+      "promises": "Our promises",
+      "compare": "Compare"
+    }
+  },
+  "investing": {
+    "eyebrow": "Investing",
+    "title": "We fit your investments to your life, not to a benchmark.",
+    "lead": "Traditional portfolios chase an index. Ours start from your cash flow: what you'll need, and when. Your money is organized by time horizon, so near-term needs stay steady while long-term money is free to grow.",
+    "tranches": [
+      {
+        "label": "Safe",
+        "range": "Years 1 to 3",
+        "height": 30,
+        "tone": "blue"
+      },
+      {
+        "label": "Income",
+        "range": "Years 4 to 10",
+        "height": 60,
+        "tone": "gold"
+      },
+      {
+        "label": "Growth",
+        "range": "Years 11+",
+        "height": 90,
+        "tone": "sage"
+      }
+    ],
+    "trancheCaption": "Illustrative example of how a plan can organize money by time horizon.",
+    "pillars": [
+      {
+        "title": "Personal by design",
+        "body": "Every portfolio is matched to your one-of-a-kind plan, timeline and cash flow needs."
+      },
+      {
+        "title": "Grounded in research",
+        "body": "We use detailed cash flow projections and smart-beta strategies rooted in Nobel Prize-winning research."
+      },
+      {
+        "title": "Technology plus people",
+        "body": "Custom software handles the precision. Your advisors handle the relationship, and are there when you need them."
+      }
+    ],
+    "feeNote": "Investment management is optional. When clients choose it, the advisory fee is typically 0.75% of invested assets and covers trading fees and expenses (a wrap fee). The Everfield advisory fee can range up to 1.25%.",
+    "cta": {
+      "label": "How we invest",
+      "href": "#investing"
+    },
+    "dashboard": {
+      "label": "Illustrative client dashboard showing a portfolio balance, growth chart and allocation by time horizon",
+      "account": "Joint investment account",
+      "balance": "$486,210.40",
+      "change": "+6.4% past 12 months",
+      "holdings": [
+        {
+          "label": "Safe (years 1-3)",
+          "weight": 18
+        },
+        {
+          "label": "Income (4-10)",
+          "weight": 34
+        },
+        {
+          "label": "Growth (11+)",
+          "weight": 48
+        }
+      ],
+      "events": [
+        "Transfer complete",
+        "Trade placed",
+        "Portfolio rebalanced"
+      ]
+    }
+  },
+  "stats": {
+    "items": [
+      {
+        "value": 1200,
+        "prefix": "",
+        "suffix": "+",
+        "label": "families rely on Everfield"
+      },
+      {
+        "value": 4,
+        "prefix": "",
+        "suffix": "",
+        "label": "planning meetings every year"
+      },
+      {
+        "value": 3,
+        "prefix": "",
+        "suffix": " yrs",
+        "label": "of past tax returns reviewed"
+      },
+      {
+        "value": 0,
+        "prefix": "$",
+        "suffix": "",
+        "label": "in commissions, ever"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Straight answers to fair questions.",
+    "lead": "Still wondering about something? Ask your advisor on your first call.",
+    "cta": {
+      "label": "Book a 30-minute call",
+      "href": "#start"
+    },
+    "items": [
+      {
+        "q": "How are you different from every other advisor claiming to be unique?",
+        "a": "We start with your values and vision, not products. Our planning covers every part of your financial life, and our flat-fee structure means we're paid for advice and service, not for selling you anything."
+      },
+      {
+        "q": "Isn't “aligning money with values” just marketing?",
+        "a": "No, it's how we actually build plans. We create strategies around your specific life goals rather than generic financial targets, and we revisit them every quarter."
+      },
+      {
+        "q": "A flat fee sounds too good to be true. What's the catch?",
+        "a": "There isn't one. Because we charge for planning and service directly through the membership, we can focus on giving you the best advice we can. You never have to move your investments to work with us."
+      },
+      {
+        "q": "What credentials do your advisors have?",
+        "a": "Our team includes Certified Financial Planners, CPA partners and licensed insurance specialists, with experience in working with entrepreneurs, digital assets, Medicare and Social Security planning."
+      },
+      {
+        "q": "Will I really get time with a senior advisor?",
+        "a": "Yes. Quarterly meetings with your dedicated advisor are the cornerstone of the service, and you have a whole team who knows you and your plan. Members can meet with their advisors as often as they need."
+      },
+      {
+        "q": "Will you pressure me to sell my investments and buy your products?",
+        "a": "No. We don't require you to invest with us. Our focus is planning and service, not selling products."
+      },
+      {
+        "q": "Can Everfield manage my investments?",
+        "a": "Yes. While it's never required, most of our clients choose to have us manage their investments. We typically charge a flat 0.75% on invested assets and cover all trading fees and expenses (known as a wrap fee). The Everfield advisory fee can range up to 1.25%."
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Your next step",
+    "title": "When did you last update your financial plan?",
+    "body": "Your biggest decisions have a window, and they touch taxes, investments and your estate at once. A 30-minute call is enough to see where you stand.",
+    "primaryCta": {
+      "label": "Book a 30-minute call",
+      "href": "#start"
+    },
+    "secondaryCta": {
+      "label": "Meet the team",
+      "href": "#"
+    },
+    "note": "Over 1,200 families rely on us to keep their plan current as their lives change.",
+    "newsletter": {
+      "title": "Not ready to talk yet?",
+      "body": "Explore our resource library for practical financial education, whether you're a client or just getting started.",
+      "cta": {
+        "label": "Browse resources",
+        "href": "#"
+      }
+    }
+  }
+}

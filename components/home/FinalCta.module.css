@@ -1,0 +1,160 @@
+.wrap {
+  padding-block: clamp(72px, 9vw, 140px);
+  background: var(--paper);
+}
+
+.card {
+  position: relative;
+  display: grid;
+  padding: clamp(40px, 7vw, 112px) clamp(28px, 6vw, 96px);
+  border-radius: clamp(24px, 3vw, 40px);
+  background: var(--blue);
+  color: rgba(255, 255, 255, 0.88);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.shapes {
+  position: absolute;
+  z-index: -1;
+  right: clamp(-120px, -6vw, -40px);
+  top: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: clamp(280px, 38vw, 520px);
+  aspect-ratio: 1;
+  translate: 0 -50%;
+  animation: spin-slow 60s linear infinite;
+}
+
+@keyframes spin-slow {
+  to {
+    rotate: 360deg;
+  }
+}
+
+.shapes span {
+  opacity: 0.9;
+}
+
+.q1 {
+  background: var(--coral);
+  border-radius: 100% 0 0 0;
+}
+
+.q2 {
+  background: var(--navy);
+  border-radius: 0 100% 0 0;
+}
+
+.q3 {
+  background: var(--gold);
+  border-radius: 0 0 0 100%;
+}
+
+.q4 {
+  background: var(--sky);
+  border-radius: 0 0 100% 0;
+}
+
+.main {
+  display: grid;
+  justify-items: start;
+  gap: 24px;
+  max-width: 720px;
+}
+
+.eyebrow {
+  color: var(--white);
+}
+
+.title {
+  color: var(--white);
+  font-size: clamp(40px, 6vw, 88px);
+}
+
+.body {
+  max-width: 54ch;
+  font-size: clamp(17px, 1.35vw, 20px);
+}
+
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 8px;
+}
+
+.ctas :global(.btn--light) {
+  --btn-fill: var(--navy);
+}
+
+.ctas :global(.btn--light:hover) {
+  --btn-fg: var(--white);
+}
+
+.note {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.resources {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px 40px;
+  margin-top: 16px;
+  padding: 28px clamp(24px, 4vw, 48px);
+  border-radius: var(--radius-lg);
+  background: var(--cream);
+  transition: background-color 0.3s ease;
+}
+
+.resources:hover {
+  background: var(--sand);
+}
+
+.resTitle {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 400;
+  color: var(--navy);
+}
+
+.resBody {
+  display: block;
+  max-width: 64ch;
+  color: var(--text-muted);
+}
+
+.resCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  color: var(--blue);
+}
+
+.resCta svg {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.35s var(--ease-out);
+}
+
+.resources:hover .resCta svg {
+  transform: translateX(6px);
+}
+
+@media (max-width: 1200px) {
+  .shapes {
+    opacity: 0.2;
+  }
+}
+
+@media (max-width: 520px) {
+  .ctas :global(.btn) {
+    width: 100%;
+  }
+}
